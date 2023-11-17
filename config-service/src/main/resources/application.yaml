@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-lable: config-server
+          default-label: config-server
           uri: https://github.com/samuelboada21/microservicios-spring
           search-paths: config-data
   application:
