@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author Samuel
  */
 
-@FeignClient(name = "carro-service", url= "http://localhost:8002")
+@FeignClient(name = "carro-service")
 @RequestMapping("/carro")
 public interface CarroFeignClient {
     
